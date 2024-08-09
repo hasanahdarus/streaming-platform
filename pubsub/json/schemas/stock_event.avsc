@@ -1,0 +1,10 @@
+{
+    "type": "record",
+    "namespace": "com.example.stock",
+    "name": "StockEvent",
+    "fields": [
+        {"name": "event_time", "type": "string"},
+        {"name": "ticker", "type": "string"},
+        {"name": "price", "type": "float"}
+    ]
+}
